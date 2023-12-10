@@ -40,7 +40,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -100,6 +100,9 @@ p {
   line-height: 1;
   margin: 20px 0 0;
 }
+.links h3 {
+  line-height: 1.5;
+}
 .logo {
   max-height: 40px;
 }
@@ -156,6 +159,10 @@ footer .contact-box {
 }
 footer .contact-box p {
   margin: 0;
+}
+.contact-form {
+  border: 1px solid;
+  border-color: #e9ebee;
 }
 @media (max-width: 900px) {
   .hero {
